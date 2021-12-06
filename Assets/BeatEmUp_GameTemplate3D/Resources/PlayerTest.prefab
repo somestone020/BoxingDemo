@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1742688142589365751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345907584633130521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a73dd7942e1da7f4c88c9a124d3882fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
+  rotateSpeed: 50
+  keyCode: 77000000730000006100000064000000
+--- !u!1001 &345028425715648119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1443228785723502, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_Name
+      value: PlayerTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061772092445518, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409424734220706, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9961947
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409424734220706, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.08715578
+      objectReference: {fileID: 0}
+    - target: {fileID: 4409424734220706, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: dropSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: hitZRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: weaponBone
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: hitVoiceSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: defenceHitSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: currentDirection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: hitKnockBackForce
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: knockdownVoiceSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.damage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.hitSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.damage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.hitSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.hitTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.damage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.hitSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundAttackDistance
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: KickCombo.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.CollSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.duration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.hitTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.damage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.hitSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.CollSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.duration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: PunchCombo.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.knockDown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.CollSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.duration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.damage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.hitSFX
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.knockDown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.collHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.knockDown
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: invulnerableDuringJump
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.CollSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.duration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.collHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.animTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.collHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.CollSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.duration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.animTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.collDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.forwardForce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.animTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.collHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.collDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.collDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.forwardForce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.animTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.collHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.knockBackForce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.collDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.animTrigger
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.DefenceOverride
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.knockBackForce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.collDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.DefenceOverride
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningKick.slowMotionEffect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.DefenceOverride
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundKickData.isGroundAttack
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: JumpKickData.slowMotionEffect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: RunningPunch.slowMotionEffect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4,
+        type: 3}
+      propertyPath: GroundPunchData.isGroundAttack
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114664003058946536, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+    - {fileID: 114894661200743772, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+    - {fileID: 114215166796135322, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+    - {fileID: 114973803696962722, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+    - {fileID: 114618728623483790, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 7934979097e14dd4cae0341be42961d4, type: 3}
+--- !u!1 &345907584633130521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1443228785723502, guid: 7934979097e14dd4cae0341be42961d4,
+    type: 3}
+  m_PrefabInstance: {fileID: 345028425715648119}
+  m_PrefabAsset: {fileID: 0}

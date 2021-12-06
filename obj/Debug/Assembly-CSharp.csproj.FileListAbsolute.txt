@@ -1,0 +1,2 @@
+C:\Users\metav\UnityProject\TheStreetsOfBoxing\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\metav\UnityProject\TheStreetsOfBoxing\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
